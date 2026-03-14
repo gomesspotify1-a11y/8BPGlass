@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Задний полупрозрачный фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="#FFF5DEB3"
+                android:centerColor="#00C4FF"
+                android:endColor="#0B70B8" />
+            <corners android:radius="36dp"/>
+        </shape>
+    </item>
+
+    <!-- Светлая граница сверху-слева -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="0.2dp"
+                android:color="#0B84B8"/>
+            <corners android:radius="36dp"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/Android/X-Project/Glass-Engine/app/src/main/jni/Main.cpp",
+      "selection": {
+        "end": {
+          "column": 12,
+          "index": 3839,
+          "line": 112
+        },
+        "start": {
+          "column": 12,
+          "index": 3839,
+          "line": 112
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/Android/X-Project/Glass-Engine/app/src/main/jni/Main.cpp"
+}

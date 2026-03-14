@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">Don\'t have a key?</string>
+    <string name="get_one">Get One</string>
+    <string name="press_back_again_to_return">Press back again to return</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">By Glass Engine</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Project is a powerful mobile cheat for PUBG Mobile Global featuring ESP, Aimbot, Bullet Track, and memory-based features, giving you full control and vision on the battlefield.</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass Engine for PUBG Mobile basic mode gives you only esp this means you can see enemies players loot and other important things through walls and other objects there is no aimbot or auto shooting just a visual advantage to help you know where everyone is at all times</string>
+    <string name="pubg_advanced_description">Glass Engine for PUBG Mobile advanced mode gives you esp and aimbot you can see enemies through walls and your aim will automatically lock onto them when you aim or shoot this helps you react faster and makes it much easier to kill enemies without needing perfect aim</string>
+    <string name="pubg_ultimate_description">Glass Engine for PUBG Mobile ultimate mode gives you esp and bullet track you can see all enemies through walls and when you shoot your bullets will automatically go to the enemy even if your crosshair is not exactly on them just shoot and the cheat will make sure the bullets hit the target</string>
+    <string name="country">Country</string>
+<string name="unable_to_open_link">Unable to open link</string>
+
+    <!-- Toast Messages -->
+    <string name="error_launching_app">Error launching %1$s</string>
+    <string name="app_installed">%1$s Installed</string>
+    <string name="failed_to_clone_app">Failed to clone %1$s</string>
+    <string name="app_not_installed_on_device">%1$s not installed on device</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="http_sniffer_or_proxy_detected">HTTP sniffer or proxy detected</string>
+    <string name="cannot_open_link">Cannot open link</string>
+    <string name="app_not_installed_in_virtual_space_installing">App not installed in virtual space. Installing...</string>
+    <string name="app_installed_in_virtual_space">App installed in virtual space!</string>
+    <string name="install_failed">Install failed!</string>
+    <string name="overlay_force_disabled">Overlay force disabled</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">No results found</string>
+    <string name="installing">Installing...</string>
+    <string name="slide_to_launch">Slide to launch</string>
+    <string name="slide_to_install">Slide to install</string>
+    <string name="expires">Expires</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="install_failed_text">Install failed</string>
+    <string name="app_not_found_in_your_device">App not found in your device</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">Bypass trigger received 1/2</string>
+    <string name="starting_bypass_1">Starting bypass 1</string>
+    <string name="starting_bypass_2">Starting bypass 2</string>
+    <string name="exec_starting">Exec: starting %1$s</string>
+    <string name="error_starting">Error starting %1$s: %2$s</string>
+    <string name="copy_progress">Copy progress: %1$d%% (%2$d/%3$d bytes)</string>
+    <string name="error_direct_copy">Error direct copy: %1$s</string>
+    <string name="error_fileprovider_copy">Error FileProvider copy: %1$s</string>
+    <string name="error_shell_copy">Error shell copy: %1$s</string>
+    <string name="error_creating_hard_link">Error creating hard link: %1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">License Period: -</string>
+    <string name="root_access">Root Access: </string>
+    <string name="os_version">OS Version: </string>
+    <string name="device_name">Device Name: </string>
+    <string name="ram">RAM: </string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">Basic</string>
+    <string name="advanced">Advanced</string>
+    <string name="ultimate">Ultimate</string>
+    <string name="delta_force_description">Glass Engine is a powerful mobile cheat for Delta Force featuring ESP, aimbot, no recoil, auto fire, radar, giving you full control and vision on the battlefield. This is a very long description that explains all the features.</string>
+    
+    <!-- Delta Force Global -->
+    <string name="delta_force_global">Delta Force</string>
+    <string name="delta_force_global_description">Glass Engine is a powerful mobile cheat for Delta Force Global featuring ESP, aimbot, no recoil, auto fire, radar, giving you full control and vision on the battlefield.</string>
+    <string name="delta_force_global_basic_description">Glass Engine for Delta Force Global basic mode gives you only esp this means you can see enemies players loot and other important things through walls and other objects there is no aimbot or auto shooting just a visual advantage to help you know where everyone is at all times</string>
+    <string name="delta_force_global_advanced_description">Glass Engine for Delta Force Global advanced mode gives you esp and aimbot you can see enemies through walls and your aim will automatically lock onto them when you aim or shoot this helps you react faster and makes it much easier to kill enemies without needing perfect aim</string>
+    <string name="delta_force_global_ultimate_description">Glass Engine for Delta Force Global ultimate mode gives you esp and bullet track you can see all enemies through walls and when you shoot your bullets will automatically go to the enemy even if your crosshair is not exactly on them just shoot and the cheat will make sure the bullets hit the target</string>
+    
+    <!-- Delta Force Garena -->
+    <string name="delta_force_garena">Delta Force </string>
+    <string name="delta_force_garena_description">Glass Engine is a powerful mobile cheat for Delta Force Garena featuring ESP, aimbot, no recoil, auto fire, radar, giving you full control and vision on the battlefield.</string>
+    <string name="delta_force_garena_basic_description">Glass Engine for Delta Force Garena basic mode gives you only esp this means you can see enemies players loot and other important things through walls and other objects there is no aimbot or auto shooting just a visual advantage to help you know where everyone is at all times</string>
+    <string name="delta_force_garena_advanced_description">Glass Engine for Delta Force Garena advanced mode gives you esp and aimbot you can see enemies through walls and your aim will automatically lock onto them when you aim or shoot this helps you react faster and makes it much easier to kill enemies without needing perfect aim</string>
+    <string name="delta_force_garena_ultimate_description">Glass Engine for Delta Force Garena ultimate mode gives you esp and bullet track you can see all enemies through walls and when you shoot your bullets will automatically go to the enemy even if your crosshair is not exactly on them just shoot and the cheat will make sure the bullets hit the target</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">Login apps</string>
+    <string name="welcome_back">Activate Key</string>
+    <string name="sign_in_to_x_project">Sign in to Glass Engine</string>
+    <string name="or">OR</string>
+    <string name="join_us_for_licences">Join us for licences</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">About Glass Engine</string>
+    <string name="about_x_project_description">Glass Engine is a unified game hub where users can explore and run cheats directly within the app. Designed for flexibility and control, this tool allows fast access to supported game environments.</string>
+    <string name="contact_via_telegram">Contact via Telegram</string>
+    <string name="copyright">© 2025 Glass Engine Team. All rights reserved.</string>
+    
+    <!-- Item App -->
+    <string name="app">App</string>
+    <string name="search_hint">Search something</string>
+    
+    <!-- 8 Ball Pool -->
+    <string name="eight_ball_pool">8 Ball Pool</string>
+    <string name="eight_ball_pool_description">8 Ball Pool is a popular billiards game where players compete in pool matches. Launch through Meta for enhanced gameplay experience.</string>
+    <string name="eight_ball_pool_basic_description">Basic mode for 8 Ball Pool provides standard gameplay without additional features.</string>
+    <string name="eight_ball_pool_advanced_description">Advanced mode for 8 Ball Pool offers enhanced gameplay features.</string>
+    <string name="eight_ball_pool_ultimate_description">Ultimate mode for 8 Ball Pool provides maximum gameplay experience.</string>
+    <string name="eight_ball_pool_package">com.miniclip.eightballpool</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">Game Name</string>
+    <string name="subtitle_or_region">Subtitle or Region</string>
+    <string name="get">GET</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">All</string>
+    <string name="new_games">New</string>
+    <string name="root">Root</string>
+    <string name="non_root">Non-Root</string>
+    <string name="best">Best</string>
+    <string name="popular">Popular</string>
+    <string name="games_list">Games list</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine is starting\nDo not touch anything on the screen</string>
+</resources>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center">
+
+    <!-- Кастомная анимация загрузки -->
+    <FrameLayout
+        android:id="@+id/loading_container"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center">
+
+        <!-- Контейнер для прогресса (в 2 раза меньше) -->
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center">
+
+            <!-- Темно-серый кружок -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/loading_background_circle" />
+
+            <!-- Белая дуга которая крутится -->
+            <View
+                android:id="@+id/white_arc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/loading_white_arc" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

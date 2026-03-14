@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+    <string name="app">تطبيق</string>
+    <string name="search_hint">البحث عن شيء</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine يبدأ\nلا تلمس أي شيء على الشاشة</string>
+</resources>

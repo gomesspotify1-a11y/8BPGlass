@@ -1,0 +1,2 @@
+rootProject.name = "Glass Engine"
+include(":app")

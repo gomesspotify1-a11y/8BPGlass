@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/rootLayout"
+    android:background="#1A1B1F"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <View
+        android:background="#000000"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="200dp"
+        android:layout_gravity="center|start"
+        android:scaleType="centerCrop"
+        android:src="@drawable/circle" />
+
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="end|center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/circle"
+        android:translationX="200dp" />
+
+
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/passwordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/button_gradient"
+            >
+
+            <eightbitlab.com.blurview.BlurView
+                android:id="@+id/blurViewCard"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:background="@drawable/button_gradient" />
+
+        <FrameLayout
+            android:id="@+id/mainwingets"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_gradient"
+            android:padding="24dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/welcometext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_back"
+                    android:fontFamily="@font/figtree_semibold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/signtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_in_to_x_project"
+                    android:fontFamily="@font/figtree_medium"
+                    android:textColor="#CCCCCC"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="36dp"/>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="16dp">
+
+                    <EditText
+                        android:id="@+id/textUsername"
+                        android:imeOptions="actionDone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/background_card"
+                        android:hint=" "
+                        android:inputType="textEmailAddress"
+                        android:fontFamily="@font/figtree_medium"
+                        android:paddingStart="38dp"
+                        android:paddingEnd="48dp"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#888888"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="12dp"
+                        android:contentDescription="left_icon"
+                        android:src="@drawable/edit" />
+
+                    <ImageView
+                        android:id="@+id/btnSignIn"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="8dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_circle"
+                        android:src="@drawable/arrow_right"
+                        android:contentDescription="right_icon2"/>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="#444444"
+                        android:layout_marginEnd="8dp"/>
+
+                    <TextView
+                        android:id="@+id/or"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/or"
+                        android:fontFamily="@font/figtree_semibold"
+                        android:textColor="#AAAAAA"
+                        android:textSize="12sp"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="#444444"
+                        android:layout_marginStart="8dp"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="16dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/join"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_ripple_wrapper"
+                        android:backgroundTint="@null"
+                        android:enabled="true"
+                        android:text="@string/join_us_for_licences"
+                        android:fontFamily="@font/figtree_medium"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textColor="#888888"
+                        android:gravity="start|center_vertical"
+                        style="@style/CustomLoginButton"
+                        android:paddingStart="38dp"
+                        android:paddingEnd="48dp"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="12dp"
+                        android:contentDescription="left_icon2"
+                        android:src="@drawable/telegram" />
+
+                    <ImageView
+                        android:id="@+id/telegramButton"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="8dp"
+                        android:padding="8dp"
+                        android:background="@drawable/bg_circle2"
+                        android:src="@drawable/arrow_right2"
+                        android:contentDescription="right_icon"
+                        android:clickable="true"
+                        android:focusable="true"/>
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="18dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/registerPromptLayout"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dontteext"
+                        android:fontFamily="@font/figtree_medium"
+                        android:text="@string/don_t_have_a_key"
+                        android:textColor="#888888"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/getKeyText"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/figtree_semibold"
+                        android:paddingStart="4dp"
+                        android:text="@string/get_one"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="OnClick,RtlSymmetry" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/progressOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#80000000"
+        android:clickable="true"
+        android:focusable="true">
+
+        <eightbitlab.com.blurview.BlurView
+            android:id="@+id/blurViewOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <!-- Контейнер для кругового прогресса с логотипом в центре -->
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center">
+
+                <!-- Круговой прогресс -->
+                <ProgressBar
+                    android:id="@+id/circularProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:progress="0"
+                    android:max="100"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progress_gradient"
+                    android:background="@drawable/circular_progress_background" />
+
+                <!-- Логотип в центре -->
+                <ImageView
+                    android:id="@+id/progressLogo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:contentDescription="Progress Logo"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>

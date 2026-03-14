@@ -1,0 +1,179 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'org.lsposed.lsparanoid'
+}
+apply from: '../signing.gradle'
+
+class Scrambler {
+    Random random = new Random()
+
+    String getRandomString(int i) {
+        return random.with {(1..(6 + random.nextInt(i))).collect {(('a'..'z')).join()[ nextInt((('a'..'z')).join().length())]}.join()}
+    }
+}
+
+Scrambler scrambler = new Scrambler()
+
+android {
+    namespace rootProject.ext.packageName
+    compileSdk 35
+    // buildToolsVersion "34.0.4"
+    ndkVersion rootProject.ext.ndkVersion
+    lint {
+       baseline = file("lint-baseline.xml")
+    }
+    defaultConfig {
+        applicationId packageName
+        minSdk 26
+        targetSdk 28
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        renderscriptTargetApi 30
+        renderscriptSupportModeEnabled true
+
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        externalNativeBuild {
+            cmake {
+                cFlags '-Wall -Wextra -Werror -fvisibility=hidden -fvisibility-inlines-hidden'
+                cppFlags '-std=c++17 -fno-exceptions -fno-rtti'
+                // arguments '-DANDROID_STL=none' // built-in libcxx has exception
+                // abiFilters rootProject.ext.NDK_BIT
+                targets 'client', 'pubgm', 'farlight'
+            }
+        }
+        ndk {
+            abiFilters rootProject.ext.abiFilters
+        }
+
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            //useProguard true
+            multiDexEnabled true
+            debuggable true
+            jniDebuggable false
+            renderscriptDebuggable false
+            shrinkResources true
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+         //   proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [randomName: "X-Project"]
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            //useProguard true
+            multiDexEnabled 
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+            zipAlignEnabled false
+            signingConfig signingConfigs.debug
+            manifestPlaceholders = [randomName: "X-Project"]
+           // proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            if (variant.buildType.name == 'release') {
+                outputFileName = "${applicationId}" + "-" + variant.buildType.name + "-" + (new Date()).format('yyyyMMddHHmmss') + ".apk"
+                variant.getAssembleProvider().configure() {
+                    it.doLast {
+                        copy {
+                            from 'build/outputs/mapping/release'
+                            into 'proguard'
+                            include '**/mapping.txt'
+                        }
+                    }
+                }
+            }
+            if (variant.buildType.name == 'debug') {
+                outputFileName = "${applicationId}" + "-" + variant.buildType.name + "-" + (new Date()).format('yyyyMMddHHmmss') + ".apk"
+                variant.getAssembleProvider().configure() {
+                    it.doLast {
+                        copy {
+                            from 'build/outputs/mapping/debug'
+                            into 'proguard'
+                            include '**/mapping.txt'
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    buildFeatures {
+        viewBinding true
+        renderScript true
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path file('src/main/jni/Android.mk')
+        }
+    }
+}
+
+dependencies {
+
+implementation('com.github.tiann:FreeReflection:3.1.0') {
+        exclude group: 'me.weishu.reflection'
+    }
+
+    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
+
+    implementation("androidx.multidex:multidex:2.0.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'androidx.preference:preference-ktx:+'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.Dimezis:BlurView:version-2.0.3'
+    implementation 'org.jdeferred:jdeferred-android-aar:1.2.6'
+
+    implementation 'com.tencent:mmkv-static:2.2.2'
+    implementation 'com.google.code.gson:gson:2.13.1'
+    implementation("com.otaliastudios:zoomlayout:1.9.0")
+    implementation 'io.github.molihuan:pathselector:1.1.16'
+    implementation "io.github.rupinderjeet:kprogresshud:1.0.0"
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    def lottieVersion = '6.6.6'
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+    implementation "com.github.topjohnwu.libsu:core:3.1.1"
+    implementation 'com.github.j-yun:Vertical-TabLayout:1.0.2'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:3.0.0'
+    implementation 'com.squareup.retrofit2:converter-gson:3.0.0'
+    implementation 'net.lingala.zip4j:zip4j:2.11.5'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.github.QuadFlask:colorpicker:0.0.15'
+implementation 'org.lsposed.hiddenapibypass:hiddenapibypass:6.1'
+implementation 'com.github.bumptech.glide:glide:4.16.0'
+annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    implementation "com.github.CodingGay.BlackReflection:core:1.1.4"
+    annotationProcessor "com.github.CodingGay.BlackReflection:compiler:1.1.4"
+    implementation "com.github.CodingGay.BlackReflection:core:$rootProject.ext.blackReflection"
+    annotationProcessor "com.github.CodingGay.BlackReflection:compiler:$rootProject.ext.blackReflection"
+    
+}
+
+
+

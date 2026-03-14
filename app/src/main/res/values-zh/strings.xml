@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">没有密钥？</string>
+    <string name="get_one">获取</string>
+    <string name="press_back_again_to_return">再次按返回键返回</string>
+    <string name="press_back_again_to_exit">再次按返回键退出</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">由 Glass Engine 提供</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Project 是一个强大的 PUBG Mobile Global 移动作弊器，具有 ESP、Aimbot、子弹追踪和基于内存的功能，让您在战场上拥有完全的控制和视野。</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass Engine 的 PUBG Mobile 基础模式只提供 ESP，这意味着您可以通过墙壁和其他物体看到敌人、玩家、战利品和其他重要物品，没有自瞄或自动射击，只是视觉优势，帮助您随时了解每个人的位置</string>
+    <string name="pubg_advanced_description">Glass Engine 的 PUBG Mobile 高级模式提供 ESP 和自瞄，您可以通过墙壁看到敌人，当您瞄准或射击时，您的准星会自动锁定他们，这有助于您更快反应，更容易击杀敌人，无需完美瞄准</string>
+    <string name="pubg_ultimate_description">Glass Engine 的 PUBG Mobile 终极模式提供 ESP 和子弹追踪，您可以通过墙壁看到所有敌人，当您射击时，即使您的准星没有完全对准他们，子弹也会自动击中敌人，只需射击，作弊器会确保子弹击中目标</string>
+    
+    <!-- Toast Messages -->
+    <string name="error_launching_app">启动 %1$s 时出错</string>
+    <string name="app_installed">%1$s 已安装</string>
+    <string name="failed_to_clone_app">克隆 %1$s 失败</string>
+    <string name="app_not_installed_on_device">%1$s 未在设备上安装</string>
+    <string name="no_internet_connection">无网络连接</string>
+    <string name="http_sniffer_or_proxy_detected">检测到 HTTP 嗅探器或代理</string>
+    <string name="cannot_open_link">无法打开链接</string>
+    <string name="app_not_installed_in_virtual_space_installing">应用未在虚拟空间中安装。正在安装...</string>
+    <string name="app_installed_in_virtual_space">应用已在虚拟空间中安装！</string>
+    <string name="install_failed">安装失败！</string>
+    <string name="overlay_force_disabled">覆盖层已强制禁用</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">未找到结果</string>
+    <string name="installing">正在安装...</string>
+    <string name="slide_to_launch">滑动启动</string>
+    <string name="slide_to_install">滑动安装</string>
+    <string name="expires">到期</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="install_failed_text">安装失败</string>
+    <string name="app_not_found_in_your_device">在您的设备上未找到应用</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">微信</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">收到启动 bypass 1/2 的触发器</string>
+    <string name="starting_bypass_1">启动 bypass 1</string>
+    <string name="starting_bypass_2">启动 bypass 2</string>
+    <string name="exec_starting">执行：启动 %1$s</string>
+    <string name="error_starting">启动 %1$s 时出错：%2$s</string>
+    <string name="copy_progress">复制进度：%1$d%% (%2$d/%3$d 字节)</string>
+    <string name="error_direct_copy">直接复制错误：%1$s</string>
+    <string name="error_fileprovider_copy">FileProvider 复制错误：%1$s</string>
+    <string name="error_shell_copy">Shell 复制错误：%1$s</string>
+    <string name="error_creating_hard_link">创建硬链接错误：%1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">许可证期限：-</string>
+    <string name="root_access">Root 访问：</string>
+    <string name="os_version">操作系统版本：</string>
+    <string name="device_name">设备名称：</string>
+    <string name="ram">内存：</string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">基础</string>
+    <string name="advanced">高级</string>
+    <string name="ultimate">终极</string>
+    <string name="delta_force_description">Glass Engine 是一个强大的 Delta Force 移动作弊器，具有 ESP、自瞄、无后坐力、自动射击、雷达功能，让您在战场上拥有完全的控制和视野。这是一个很长的描述，解释了所有功能。</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">登录应用</string>
+    <string name="welcome_back">欢迎回来</string>
+    <string name="sign_in_to_x_project">登录 Glass Engine</string>
+    <string name="or">或</string>
+    <string name="join_us_for_licences">加入我们获取许可证</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">关于 Glass Engine</string>
+    <string name="about_x_project_description">Glass Engine 是一个统一的游戏中心，用户可以直接在应用中探索和运行作弊器。专为灵活性和控制而设计，此工具允许快速访问支持的游戏环境。</string>
+    <string name="contact_via_telegram">通过 Telegram 联系</string>
+    <string name="copyright">© 2025 Glass Engine Team. 保留所有权利。</string>
+    
+    <!-- Item App -->
+    <string name="app">应用</string>
+    <string name="search_hint">搜索</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">游戏名称</string>
+    <string name="subtitle_or_region">副标题或地区</string>
+    <string name="get">获取</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">全部</string>
+    <string name="new_games">新游戏</string>
+    <string name="root">Root</string>
+    <string name="non_root">非 Root</string>
+    <string name="best">最佳</string>
+    <string name="popular">热门</string>
+    <string name="games_list">游戏列表</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine 正在启动\n请勿触摸屏幕上的任何内容</string>
+</resources> 

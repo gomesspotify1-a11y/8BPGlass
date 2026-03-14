@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+
+    <!-- Key head (circle) -->
+    <path
+        android:fillColor="#888888"
+        android:fillType="evenOdd"
+        android:pathData="
+            M9,6
+            C6.239,6 4,8.239 4,11
+            C4,13.761 6.239,16 9,16
+            C11.761,16 14,13.761 14,11
+            C14,8.239 11.761,6 9,6
+            Z
+            M9,8
+            C10.657,8 12,9.343 12,11
+            C12,12.657 10.657,14 9,14
+            C7.343,14 6,12.657 6,11
+            C6,9.343 7.343,8 9,8
+            Z" />
+
+    <!-- Key shaft -->
+    <path
+        android:fillColor="#888888"
+        android:fillType="evenOdd"
+        android:pathData="
+            M13.5,10.25
+            H21
+            V11.75
+            H13.5
+            Z" />
+
+    <!-- Key teeth -->
+    <path
+        android:fillColor="#888888"
+        android:fillType="evenOdd"
+        android:pathData="
+            M18.5,11.75
+            V14
+            H20
+            V11.75
+            Z" />
+
+    <path
+        android:fillColor="#888888"
+        android:fillType="evenOdd"
+        android:pathData="
+            M16,11.75
+            V13
+            H17.5
+            V11.75
+            Z" />
+
+</vector>

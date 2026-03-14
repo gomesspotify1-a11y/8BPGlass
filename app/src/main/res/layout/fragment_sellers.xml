@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Search -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/search_boxx"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_card"
+                android:hint="Search seller or country"
+                android:paddingStart="38dp"
+                android:paddingEnd="48dp"
+                android:textSize="11sp"/>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/search"/>
+        </FrameLayout>
+
+        <!-- Country filter -->
+
+
+        <!-- Seller list -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/seller_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">Haben Sie keinen Schlüssel?</string>
+    <string name="get_one">Erhalten</string>
+    <string name="press_back_again_to_return">Drücken Sie erneut zurück, um zurückzukehren</string>
+    <string name="press_back_again_to_exit">Drücken Sie erneut zurück, um zu beenden</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">Von Glass Engine</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Project ist ein leistungsstarker mobiler Cheat für PUBG Mobile Global mit ESP-, Aimbot-, Bullet Track- und speicherbasierten Funktionen, die Ihnen vollständige Kontrolle und Sicht auf dem Schlachtfeld geben.</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass Engine für PUBG Mobile im Basismodus gibt Ihnen nur ESP, das bedeutet, Sie können Feinde, Spieler, Beute und andere wichtige Dinge durch Wände und andere Objekte sehen, kein Aimbot oder automatisches Schießen, nur ein visueller Vorteil, um Ihnen zu helfen zu wissen, wo sich jeder zu jeder Zeit befindet</string>
+    <string name="pubg_advanced_description">Glass Engine für PUBG Mobile im erweiterten Modus gibt Ihnen ESP und Aimbot, Sie können Feinde durch Wände sehen und Ihr Fadenkreuz wird automatisch auf sie einrasten, wenn Sie zielen oder schießen, das hilft Ihnen, schneller zu reagieren und macht es viel einfacher, Feinde zu töten, ohne perfekt zielen zu müssen</string>
+    <string name="pubg_ultimate_description">Glass Engine für PUBG Mobile im Ultimate-Modus gibt Ihnen ESP und Kugelverfolgung, Sie können alle Feinde durch Wände sehen und wenn Sie schießen, werden Ihre Kugeln automatisch zum Feind gehen, auch wenn Ihr Fadenkreuz nicht genau auf sie gerichtet ist, schießen Sie einfach und der Cheat stellt sicher, dass die Kugeln das Ziel treffen</string>
+    
+    <!-- Toast Messages -->
+    <string name="error_launching_app">Fehler beim Starten von %1$s</string>
+    <string name="app_installed">%1$s Installiert</string>
+    <string name="failed_to_clone_app">Fehler beim Klonen von %1$s</string>
+    <string name="app_not_installed_on_device">%1$s nicht auf dem Gerät installiert</string>
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+    <string name="http_sniffer_or_proxy_detected">HTTP-Sniffer oder Proxy erkannt</string>
+    <string name="cannot_open_link">Link kann nicht geöffnet werden</string>
+    <string name="app_not_installed_in_virtual_space_installing">App nicht im virtuellen Raum installiert. Installation...</string>
+    <string name="app_installed_in_virtual_space">App im virtuellen Raum installiert!</string>
+    <string name="install_failed">Installation fehlgeschlagen!</string>
+    <string name="overlay_force_disabled">Overlay zwangsweise deaktiviert</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">Keine Ergebnisse gefunden</string>
+    <string name="installing">Installation...</string>
+    <string name="slide_to_launch">Zum Starten wischen</string>
+    <string name="slide_to_install">Zum Installieren wischen</string>
+    <string name="expires">Läuft ab</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="install_failed_text">Installation fehlgeschlagen</string>
+    <string name="app_not_found_in_your_device">App auf Ihrem Gerät nicht gefunden</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">Bypass-Trigger empfangen 1/2</string>
+    <string name="starting_bypass_1">Bypass 1 starten</string>
+    <string name="starting_bypass_2">Bypass 2 starten</string>
+    <string name="exec_starting">Exec: Starten von %1$s</string>
+    <string name="error_starting">Fehler beim Starten von %1$s: %2$s</string>
+    <string name="copy_progress">Kopierfortschritt: %1$d%% (%2$d/%3$d Bytes)</string>
+    <string name="error_direct_copy">Fehler beim direkten Kopieren: %1$s</string>
+    <string name="error_fileprovider_copy">FileProvider-Kopierfehler: %1$s</string>
+    <string name="error_shell_copy">Shell-Kopierfehler: %1$s</string>
+    <string name="error_creating_hard_link">Fehler beim Erstellen des Hard Links: %1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">Lizenzzeitraum: -</string>
+    <string name="root_access">Root-Zugriff: </string>
+    <string name="os_version">Betriebssystemversion: </string>
+    <string name="device_name">Gerätename: </string>
+    <string name="ram">RAM: </string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">Basis</string>
+    <string name="advanced">Erweitert</string>
+    <string name="ultimate">Ultimate</string>
+    <string name="delta_force_description">Glass Engine ist ein leistungsstarker mobiler Cheat für Delta Force mit ESP-, Aimbot-, Rückstoßlos-, automatischem Schießen und Radar-Funktionen, die Ihnen vollständige Kontrolle und Sicht auf dem Schlachtfeld geben. Dies ist eine sehr lange Beschreibung, die alle Funktionen erklärt.</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">Anmelde-Apps</string>
+    <string name="welcome_back">Willkommen zurück</string>
+    <string name="sign_in_to_x_project">Bei Glass Engine anmelden</string>
+    <string name="or">ODER</string>
+    <string name="join_us_for_licences">Schließen Sie sich uns für Lizenzen an</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">Über Glass Engine</string>
+    <string name="about_x_project_description">Glass Engine ist ein einheitlicher Gaming-Hub, in dem Benutzer Cheats direkt in der App erkunden und ausführen können. Entwickelt für Flexibilität und Kontrolle, ermöglicht dieses Tool schnellen Zugriff auf unterstützte Spielumgebungen.</string>
+    <string name="contact_via_telegram">Über Telegram kontaktieren</string>
+    <string name="copyright">© 2025 Glass Engine Team. Alle Rechte vorbehalten.</string>
+    
+    <!-- Item App -->
+    <string name="app">App</string>
+    <string name="search_hint">Etwas suchen</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">Spielname</string>
+    <string name="subtitle_or_region">Untertitel oder Region</string>
+    <string name="get">ERHALTEN</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">Alle</string>
+    <string name="new_games">Neu</string>
+    <string name="root">Root</string>
+    <string name="non_root">Ohne Root</string>
+    <string name="best">Beste</string>
+    <string name="popular">Beliebt</string>
+    <string name="games_list">Spieleliste</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine startet\nBerühren Sie nichts auf dem Bildschirm</string>
+</resources> 

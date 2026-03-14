@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">¿No tienes una clave?</string>
+    <string name="get_one">Obtener</string>
+    <string name="press_back_again_to_return">Presiona atrás nuevamente para volver</string>
+    <string name="press_back_again_to_exit">Presiona atrás nuevamente para salir</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">Por Glass Engine</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Project es un potente truco móvil para PUBG Mobile Global con funciones ESP, Aimbot, Bullet Track y características basadas en memoria, dándote control total y visión en el campo de batalla.</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass Engine para PUBG Mobile en modo básico te da solo ESP, esto significa que puedes ver enemigos, jugadores, botín y otras cosas importantes a través de paredes y otros objetos, no hay aimbot o disparo automático, solo una ventaja visual para ayudarte a saber dónde está todo el mundo en todo momento</string>
+    <string name="pubg_advanced_description">Glass Engine para PUBG Mobile en modo avanzado te da ESP y aimbot, puedes ver enemigos a través de paredes y tu mira se bloqueará automáticamente en ellos cuando apuntes o dispares, esto te ayuda a reaccionar más rápido y hace mucho más fácil matar enemigos sin necesidad de apuntar perfectamente</string>
+    <string name="pubg_ultimate_description">Glass Engine para PUBG Mobile en modo ultimate te da ESP y seguimiento de balas, puedes ver todos los enemigos a través de paredes y cuando dispares, tus balas irán automáticamente al enemigo incluso si tu mira no está exactamente en ellos, solo dispara y el truco se asegurará de que las balas den en el objetivo</string>
+    
+    <!-- Toast Messages -->
+    <string name="error_launching_app">Error al iniciar %1$s</string>
+    <string name="app_installed">%1$s Instalado</string>
+    <string name="failed_to_clone_app">Error al clonar %1$s</string>
+    <string name="app_not_installed_on_device">%1$s no instalado en el dispositivo</string>
+    <string name="no_internet_connection">Sin conexión a internet</string>
+    <string name="http_sniffer_or_proxy_detected">Detectado sniffer HTTP o proxy</string>
+    <string name="cannot_open_link">No se puede abrir el enlace</string>
+    <string name="app_not_installed_in_virtual_space_installing">Aplicación no instalada en espacio virtual. Instalando...</string>
+    <string name="app_installed_in_virtual_space">¡Aplicación instalada en espacio virtual!</string>
+    <string name="install_failed">¡Instalación fallida!</string>
+    <string name="overlay_force_disabled">Overlay forzadamente deshabilitado</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">No se encontraron resultados</string>
+    <string name="installing">Instalando...</string>
+    <string name="slide_to_launch">Desliza para iniciar</string>
+    <string name="slide_to_install">Desliza para instalar</string>
+    <string name="expires">Expira</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="install_failed_text">Instalación fallida</string>
+    <string name="app_not_found_in_your_device">Aplicación no encontrada en tu dispositivo</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">Trigger de bypass recibido 1/2</string>
+    <string name="starting_bypass_1">Iniciando bypass 1</string>
+    <string name="starting_bypass_2">Iniciando bypass 2</string>
+    <string name="exec_starting">Exec: iniciando %1$s</string>
+    <string name="error_starting">Error iniciando %1$s: %2$s</string>
+    <string name="copy_progress">Progreso de copia: %1$d%% (%2$d/%3$d bytes)</string>
+    <string name="error_direct_copy">Error de copia directa: %1$s</string>
+    <string name="error_fileprovider_copy">Error de copia FileProvider: %1$s</string>
+    <string name="error_shell_copy">Error de copia shell: %1$s</string>
+    <string name="error_creating_hard_link">Error creando hard link: %1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">Período de licencia: -</string>
+    <string name="root_access">Acceso Root: </string>
+    <string name="os_version">Versión del SO: </string>
+    <string name="device_name">Nombre del dispositivo: </string>
+    <string name="ram">RAM: </string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">Básico</string>
+    <string name="advanced">Avanzado</string>
+    <string name="ultimate">Ultimate</string>
+    <string name="delta_force_description">Glass Engine es un potente truco móvil para Delta Force con funciones ESP, aimbot, sin retroceso, disparo automático, radar, dándote control total y visión en el campo de batalla. Esta es una descripción muy larga que explica todas las funciones.</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">Aplicaciones de inicio de sesión</string>
+    <string name="welcome_back">Bienvenido de vuelta</string>
+    <string name="sign_in_to_x_project">Iniciar sesión en Glass Engine</string>
+    <string name="or">O</string>
+    <string name="join_us_for_licences">Únete a nosotros para licencias</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">Acerca de Glass Engine</string>
+    <string name="about_x_project_description">Glass Engine es un centro de juegos unificado donde los usuarios pueden explorar y ejecutar trucos directamente dentro de la aplicación. Diseñado para flexibilidad y control, esta herramienta permite acceso rápido a entornos de juegos compatibles.</string>
+    <string name="contact_via_telegram">Contactar vía Telegram</string>
+    <string name="copyright">© 2025 Glass Engine Team. Todos los derechos reservados.</string>
+    
+    <!-- Item App -->
+    <string name="app">Aplicación</string>
+    <string name="search_hint">Buscar algo</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">Nombre del juego</string>
+    <string name="subtitle_or_region">Subtítulo o región</string>
+    <string name="get">OBTENER</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">Todos</string>
+    <string name="new_games">Nuevos</string>
+    <string name="root">Root</string>
+    <string name="non_root">Sin Root</string>
+    <string name="best">Mejores</string>
+    <string name="popular">Populares</string>
+    <string name="games_list">Lista de juegos</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine se está iniciando\nNo toque nada en la pantalla</string>
+</resources> 

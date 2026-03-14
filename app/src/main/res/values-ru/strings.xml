@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">Нет ключа?</string>
+    <string name="get_one">Получить</string>
+    <string name="press_back_again_to_return">Нажмите назад еще раз для возврата</string>
+    <string name="press_back_again_to_exit">Нажмите назад еще раз для выхода</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">От Glass Engine</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Project - это мощный мобильный чит для PUBG Mobile Global с функциями ESP, Aimbot, Bullet Track и функциями на основе памяти, дающий вам полный контроль и обзор на поле боя.</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass Engine для PUBG Mobile в базовом режиме дает вам только ESP, это означает, что вы можете видеть врагов, игроков, лут и другие важные вещи через стены и другие объекты, нет аимбота или автоматической стрельбы, только визуальное преимущество, чтобы помочь вам знать, где все находятся в любое время</string>
+    <string name="pubg_advanced_description">Glass Engine для PUBG Mobile в продвинутом режиме дает вам ESP и аимбот, вы можете видеть врагов через стены, и ваш прицел автоматически заблокируется на них, когда вы целитесь или стреляете, это помогает вам реагировать быстрее и намного легче убивать врагов без необходимости идеального прицеливания</string>
+    <string name="pubg_ultimate_description">Glass Engine для PUBG Mobile в ультимативном режиме дает вам ESP и отслеживание пуль, вы можете видеть всех врагов через стены, и когда вы стреляете, ваши пули автоматически попадут во врага, даже если ваш прицел не точно на них, просто стреляйте, и чит убедится, что пули попадут в цель</string>
+    
+    <!-- Toast Messages -->
+    <string name="error_launching_app">Ошибка запуска %1$s</string>
+    <string name="app_installed">%1$s Установлено</string>
+    <string name="failed_to_clone_app">Не удалось клонировать %1$s</string>
+    <string name="app_not_installed_on_device">%1$s не установлено на устройстве</string>
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="http_sniffer_or_proxy_detected">Обнаружен HTTP сниффер или прокси</string>
+    <string name="cannot_open_link">Невозможно открыть ссылку</string>
+    <string name="app_not_installed_in_virtual_space_installing">Приложение не установлено в виртуальном пространстве. Установка...</string>
+    <string name="app_installed_in_virtual_space">Приложение установлено в виртуальном пространстве!</string>
+    <string name="install_failed">Установка не удалась!</string>
+    <string name="overlay_force_disabled">Оверлей принудительно отключен</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">Результаты не найдены</string>
+    <string name="installing">Установка...</string>
+    <string name="slide_to_launch">Проведите для запуска</string>
+    <string name="slide_to_install">Проведите для установки</string>
+    <string name="expires">Истекает</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="install_failed_text">Установка не удалась</string>
+    <string name="app_not_found_in_your_device">Приложение не найдено на вашем устройстве</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">Получен триггер на запуск bypass 1/2</string>
+    <string name="starting_bypass_1">Запуск bypass 1</string>
+    <string name="starting_bypass_2">Запуск bypass 2</string>
+    <string name="exec_starting">Exec: запуск %1$s</string>
+    <string name="error_starting">Ошибка запуска %1$s: %2$s</string>
+    <string name="copy_progress">Прогресс копирования: %1$d%% (%2$d/%3$d байт)</string>
+    <string name="error_direct_copy">Ошибка прямого копирования: %1$s</string>
+    <string name="error_fileprovider_copy">Ошибка FileProvider копирования: %1$s</string>
+    <string name="error_shell_copy">Ошибка shell копирования: %1$s</string>
+    <string name="error_creating_hard_link">Ошибка создания hard link: %1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">Период лицензии: -</string>
+    <string name="root_access">Root доступ: </string>
+    <string name="os_version">Версия ОС: </string>
+    <string name="device_name">Имя устройства: </string>
+    <string name="ram">ОЗУ: </string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">Базовый</string>
+    <string name="advanced">Продвинутый</string>
+    <string name="ultimate">Ультимативный</string>
+    <string name="delta_force_description">Glass Engine - это мощный мобильный чит для Delta Force с функциями ESP, аимбот, отсутствие отдачи, автоматический огонь, радар, дающий вам полный контроль и обзор на поле боя. Это очень длинное описание, объясняющее все функции.</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">Приложения для входа</string>
+    <string name="welcome_back">Добро пожаловать</string>
+    <string name="sign_in_to_x_project">Войти в Glass Engine</string>
+    <string name="or">ИЛИ</string>
+    <string name="join_us_for_licences">Присоединяйтесь к нам для лицензий</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">О Glass Engine</string>
+    <string name="about_x_project_description">Glass Engine - это унифицированный игровой хаб, где пользователи могут исследовать и запускать читы прямо в приложении. Разработан для гибкости и контроля, этот инструмент позволяет быстро получить доступ к поддерживаемым игровым средам.</string>
+    <string name="contact_via_telegram">Связаться через Telegram</string>
+    <string name="copyright">© 2025 Glass Engine Team. Все права защищены.</string>
+    
+    <!-- Item App -->
+    <string name="app">Приложение</string>
+    <string name="search_hint">Поиск</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">Название игры</string>
+    <string name="subtitle_or_region">Подзаголовок или регион</string>
+    <string name="get">ПОЛУЧИТЬ</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">Все</string>
+    <string name="new_games">Новые</string>
+    <string name="root">Root</string>
+    <string name="non_root">Без Root</string>
+    <string name="best">Лучшие</string>
+    <string name="popular">Популярные</string>
+    <string name="games_list">Список игр</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engine запускается\nНе трогайте ничего на экране</string>
+</resources> 

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "132498051692",
+    "firebase_url": "https://vip-loader-3dd31-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vip-loader-3dd31",
+    "storage_bucket": "vip-loader-3dd31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132498051692:android:5cdc605fc604997532fe49",
+        "android_client_info": {
+          "package_name": "com.glass.engine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnXX6QHxilF8Mj0y--jvgdaVV_vAZd-nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Задний полупрозрачный фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3A17171B"/>
+
+        </shape>
+    </item>
+
+
+    <!-- Тень снизу-справа -->
+    <item android:right="0dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#22000000"
+                android:endColor="@android:color/transparent"/>
+
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Glass Engine</string>
+
+    <string name="file_access_message">file_access_message</string>
+    <string name="don_t_have_a_key">キーをお持ちでないですか？</string>
+    <string name="get_one">取得</string>
+    <string name="press_back_again_to_return">戻るにはもう一度戻るを押してください</string>
+    <string name="press_back_again_to_exit">終了するにはもう一度戻るを押してください</string>
+    <string name="delta_force">Delta Force</string>
+    <string name="by_x_project">Glass Engine 提供</string>
+    <string name="x_project_is_a_powerful_mobile_cheat_for_pubg_mobile_global_featuring_esp_aimbot_bullet_track_and_memory_based_features_giving_you_full_control_and_vision_on_the_battlefield">X Projectは、ESP、Aimbot、Bullet Track、メモリベースの機能を備えたPUBG Mobile Global用の強力なモバイルチートで、戦場での完全な制御と視界を提供します。</string>
+    <string name="pubg_mobilee">PUBG MOBILE</string>
+    
+    <!-- Basic, Advanced, Ultimate descriptions for PUBG MOBILE -->
+    <string name="pubg_basic_description">Glass EngineのPUBG Mobile基本モードではESPのみを提供します。これは、壁やその他のオブジェクトを通して敵、プレイヤー、戦利品、その他の重要なものを確認できることを意味します。エイムボットや自動射撃はなく、視覚的な利点のみで、常に全員の位置を把握するのに役立ちます</string>
+    <string name="pubg_advanced_description">Glass EngineのPUBG Mobile高度モードではESPとエイムボットを提供します。壁を通して敵を見ることができ、照準を合わせたり射撃したりすると、照準が自動的にロックされます。これにより、より速く反応でき、完璧な照準がなくても敵を倒すのがはるかに簡単になります</string>
+    <string name="pubg_ultimate_description">Glass EngineのPUBG Mobile究極モードではESPと弾丸追跡を提供します。壁を通してすべての敵を見ることができ、射撃すると、照準が正確に敵に向いていなくても、弾丸は自動的に敵に向かいます。ただ撃つだけで、チートが弾丸が目標に当たることを保証します</string>
+    
+    <!-- Toast Messages -->
+    <string name="error_launching_app">%1$sの起動エラー</string>
+    <string name="app_installed">%1$s インストール済み</string>
+    <string name="failed_to_clone_app">%1$sのクローンに失敗</string>
+    <string name="app_not_installed_on_device">%1$sがデバイスにインストールされていません</string>
+    <string name="no_internet_connection">インターネット接続がありません</string>
+    <string name="http_sniffer_or_proxy_detected">HTTPスニファーまたはプロキシが検出されました</string>
+    <string name="cannot_open_link">リンクを開けません</string>
+    <string name="app_not_installed_in_virtual_space_installing">アプリが仮想空間にインストールされていません。インストール中...</string>
+    <string name="app_installed_in_virtual_space">アプリが仮想空間にインストールされました！</string>
+    <string name="install_failed">インストールに失敗しました！</string>
+    <string name="overlay_force_disabled">オーバーレイが強制的に無効化されました</string>
+    
+    <!-- UI Text -->
+    <string name="no_results_found">結果が見つかりません</string>
+    <string name="installing">インストール中...</string>
+    <string name="slide_to_launch">起動するにはスワイプ</string>
+    <string name="slide_to_install">インストールするにはスワイプ</string>
+    <string name="expires">期限</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="install_failed_text">インストールに失敗</string>
+    <string name="app_not_found_in_your_device">デバイスでアプリが見つかりません</string>
+    
+    <!-- App Names -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="wechat">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="vk">VK</string>
+    <string name="via">Via</string>
+    
+    <!-- Log Messages -->
+    <string name="bypass_trigger_received">バイパストリガー受信 1/2</string>
+    <string name="starting_bypass_1">バイパス1開始</string>
+    <string name="starting_bypass_2">バイパス2開始</string>
+    <string name="exec_starting">実行：%1$s開始</string>
+    <string name="error_starting">%1$s開始エラー：%2$s</string>
+    <string name="copy_progress">コピー進行状況：%1$d%% (%2$d/%3$d バイト)</string>
+    <string name="error_direct_copy">直接コピーエラー：%1$s</string>
+    <string name="error_fileprovider_copy">FileProviderコピーエラー：%1$s</string>
+    <string name="error_shell_copy">シェルコピーエラー：%1$s</string>
+    <string name="error_creating_hard_link">ハードリンク作成エラー：%1$s</string>
+    
+    <!-- Package Names -->
+    <string name="twitter_package">com.twitter.android</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="wechat_package">com.tencent.mm</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="vk_package">com.vkontakte.android</string>
+    <string name="via_package">mark.via.gp</string>
+    <string name="pubg_package">com.tencent.ig</string>
+    
+    <!-- Profile Fragment -->
+    <string name="license_period">ライセンス期間：-</string>
+    <string name="root_access">Rootアクセス：</string>
+    <string name="os_version">OSバージョン：</string>
+    <string name="device_name">デバイス名：</string>
+    <string name="ram">RAM：</string>
+    
+    <!-- Game Info Fragment -->
+    <string name="basic">基本</string>
+    <string name="advanced">高度</string>
+    <string name="ultimate">究極</string>
+    <string name="delta_force_description">Glass Engineは、ESP、エイムボット、反動なし、自動射撃、レーダー機能を備えたDelta Force用の強力なモバイルチートで、戦場での完全な制御と視界を提供します。これはすべての機能を説明する非常に長い説明です。</string>
+    
+    <!-- Login Fragment -->
+    <string name="login_apps">ログインアプリ</string>
+    <string name="welcome_back">おかえりなさい</string>
+    <string name="sign_in_to_x_project">Glass Engineにサインイン</string>
+    <string name="or">または</string>
+    <string name="join_us_for_licences">ライセンスのために私たちに参加してください</string>
+    
+    <!-- Main Activity -->
+    <string name="about_x_project">Glass Engineについて</string>
+    <string name="about_x_project_description">Glass Engineは、ユーザーがアプリ内で直接チートを探索して実行できる統合ゲーミングハブです。柔軟性と制御のために設計され、このツールはサポートされているゲーム環境への迅速なアクセスを可能にします。</string>
+    <string name="contact_via_telegram">Telegramで連絡</string>
+    <string name="copyright">© 2025 Glass Engine Team. 全著作権所有。</string>
+    
+    <!-- Item App -->
+    <string name="app">アプリ</string>
+    <string name="search_hint">何かを検索</string>
+    
+    <!-- Game Item -->
+    <string name="game_name">ゲーム名</string>
+    <string name="subtitle_or_region">サブタイトルまたは地域</string>
+    <string name="get">取得</string>
+    
+    <!-- Main Content Fragment -->
+    <string name="all">すべて</string>
+    <string name="new_games">新着</string>
+    <string name="root">Root</string>
+    <string name="non_root">Rootなし</string>
+    <string name="best">ベスト</string>
+    <string name="popular">人気</string>
+    <string name="games_list">ゲームリスト</string>
+    
+    <!-- ColorPickerService -->
+    <string name="x_project_starting">Glass Engineが開始しています\n画面に何も触れないでください</string>
+</resources> 
